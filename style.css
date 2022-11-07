@@ -231,9 +231,10 @@ html {
 }
 
 .section-info {
-    margin-top: 1rem;
+    margin: 1rem 0.5rem;
     padding-top: 1rem;
 }
+
 
 /** Technologies section**/
 
@@ -727,4 +728,10 @@ html {
     border: 1px solid gray;
     /* border-radius: 1rem; */
     padding: 0 0.75rem
+}
+
+@media (max-width: 760px) { 
+    .apps-section img {
+        width: 100%;
+    }
 }
