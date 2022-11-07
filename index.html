@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,45 +12,270 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 </head>
+
 <body>
-    
+
     <!--===== NAVIGATION =====-->
-
+    <div>
         <nav class="navigation ">
-            
-                <div class="nav-brand"><a href="/">siddhi</a></div>
-            
-                <div>
-                    <ul class="list-non-bullet nav-pills">
-                        
-                        <li class="list-item-inline"> <a class="link link-active" href="/"> home </a> </li>
-                        
-                        <li class="list-item-inline"> <a class="link" href="https://projects.siddhigate.me/"> projects </a> </li>
-                        
-                        <li class="list-item-inline"> <a class="link" href="https://blog.siddhigate.me/" target="_blank"> blogs </a> </li>
 
-                    </ul>
-                </div>
-                    
+            <div class="nav-brand"><a href="/">siddhi</a></div>
+
+            <div>
+                <ul class="list-non-bullet nav-pills">
+
+                    <li class="list-item-inline"> <a class="link link-active" href="/"> home </a> </li>
+                    <li class="list-item-inline"> <a class="link" href="#about"> about </a>
+                    </li>
+                    <li class="list-item-inline"> <a class="link" href="https://projects.siddhigate.me/"> apps </a>
+                    </li>
+
+                    <li class="list-item-inline"> <a class="link" href="https://blog.siddhigate.me/" target="_blank">
+                            blog
+                        </a> </li>
+
+                </ul>
+            </div>
+
         </nav>
 
-    <!--===== HEADER =====-->
-    <header class="hero">
+        <!--===== HEADER =====-->
+        <header class="hero">
 
-        <img src="./assets/tech12.svg" class="hero-image" alt="Header image coding girl">
-        <div class="container-center">
-            <h1 class="hero-heading"> Siddhi Gate </h1>
-            <h1 class="hero-sub-heading"> the web developer</h1>
-            <a href="#technologies" class="link link-primary link-pink know-more"> Know more</a>
+            <img src="./assets/tech12.svg" class="hero-image" alt="Header image coding girl">
+            <div class="container-center headings">
+                <h1 class="hero-heading"> Siddhi Gate </h1>
+                <h1 class="hero-sub-heading"> A full stack developer solving problems through code.</h1>
+                <a href="#about" class="link link-primary link-pink know-more"> Know more</a>
+            </div>
+
+        </header>
+
+
+        <section id="about" class="section-aboutme container container-center">
+            <div class="section-title">
+                <h1 class="section-heading">What I do 👩‍🏭</h1>
+                <h1 class="section-sub-heading"> I build apps, I write blogs, I do hackathons and I study CS. </h1>
+            </div>
+
+            <div class="section-info">
+                <img src="./aboutme7.svg" alt="" class="about-me-img">
+            </div>
+        </section>
+    </div>
+    <section class="section-work container container-center">
+        <div class="section-title">
+            <h1 class="section-heading">My achievements 🥇</h1>
+            <h3 class="section-sub-heading"> I participate in hackathons and here are some of my achievements. </h3>
         </div>
 
-    </header>
+        <div class="section-info">
 
-    
+            <div class="achievements-container">
+                <section class="achievements-card">
+                    <h3>Winner</h3>
+                    <p class="tagline">Netlify x Hashnode hackathon</p>
+                    <p class="desc">Won the Netlify Hashnode hackathon out of 150+ participants.
+                        Built Dev Care, an app that will help developers to take care of their health while working.
+                    </p>
+                    <img src="./assets/medals/winner.png" alt="medal" class="medal">
+                </section>
+                <section class="achievements-card">
+                    <h3>Winner</h3>
+                    <p class="tagline">Link Preview hackathon</p>
+                    <p class="desc">Won the link preview challenge out of 195+ participants.
+                        Built a rich link preview app, NPM package, and API endpoint to integrate rich link preview in
+                        any app.
+                    </p>
+                    <img src="./assets/medals/winner.png" alt="medal" class="medal">
+                </section>
+                <section class="achievements-card">
+                    <h3>Runners up</h3>
+                    <p class="tagline">HarperDB x Hashnode hackathon</p>
+                    <p class="desc">Secured runners-up place in HarperDB Hashnode hackathon out of 80+ participants.
+                        Built Eye Care, an app to help take care of your eyes while working.
+                    </p>
+                    <img src="./assets/medals/runnersup.png" alt="medal" class="medal">
+                </section>
+                <section class="achievements-card">
+                    <h3>Top 8th team</h3>
+                    <p class="tagline">CrossKnot Hacks hackathon</p>
+                    <p class="desc">Made it to the Top 8 list of CrossKnot Hacks out of 75+ participants.
+                        Built DevCase, an app to generate a developer portfolio website seamlessly.
+                    </p>
+                    <img src="./assets/medals/top8.png" alt="medal" class="medal">
+                </section>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section-work container container-center">
+        <div class="section-title">
+            <h1 class="section-heading">My work 👩‍💻</h1>
+            <h3 class="section-sub-heading"> I love to build projects and write blogs </h3>
+        </div>
+
+        <div class="section-info">
+
+            <div class="apps-section">
+                <div>
+                    <img src="./assets/projectmaking.svg" alt="">
+                </div>
+                <div>
+                    <h3>My Apps 💻</h3>
+                    <p>I love building products which will make people's life easier. You can find them all here.</p>
+                    <a href="https://projects.siddhigate.me/" class="link link-primary link-purple"> Try my apps</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="section-info">
+
+            <div class="apps-section">
+                <div>
+                    <img src="./assets/blogwriting.svg" alt="">
+                </div>
+                <div>
+                    <h3>My Blog 📝</h3>
+                    <p>I'm a curious learner and am fascinated by how things work behind the scenes. You can find my
+                        blog where I document my learning.</p>
+                    <a href="https://blog.siddhigate.me/" class="link link-primary link-pink" target="_blank"> Read my blog</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- <section class="section-work container container-center">
+        <div class="section-title">
+            <h1 class="section-heading">My work 👩‍💻</h1>
+            <h3 class="section-sub-heading"> I love to build projects and write blogs </h3>
+        </div>
+
+        <div class="section-info">
+
+            <div class="work-card">
+                <img src="./assets/projectmaking.svg" alt="" class="work-image">
+                <p class="work-title   mt-3">My Apps</p>
+                <p class="work-subtitle">
+                    I love building products which will make people's life easier.
+                </p>
+                <a href="https://projects.siddhigate.me/" class="link link-primary link-purple"> Try my projects</a>
+            </div>
+
+            <div class="work-card">
+                <img src="./assets/blogwriting.svg" alt="" class="work-image">
+                <p class="work-title">My Blog</p>
+                <p class="work-subtitle">
+                    I like to study and document my learning. You can find my technical articles on my blog.
+                </p>
+                <a href="./blogs.html" class="link link-primary link-pink"> Checkout my blog</a>
+            </div>
+
+        </div>
+
+    </section> -->
+
+
+    <section class="section-work container container-center">
+        <div class="section-title">
+            <h1 class="section-heading">Experience 🏢</h1>
+            <h3 class="section-sub-heading"> I have done internships and have contributed to various communities. </h3>
+        </div>
+
+        <div class="section-info">
+            <div class="experience">
+                <div class="item">
+                    <h5 class="company-name">Community Classroom</h5>
+                    <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Remote</div>
+                    <div class="job-info">
+                        <div class="title">Developer</div>
+                        <div class="duration">2022 - Present</div>
+                    </div>
+                    <div class="desc">
+                        <ul class="fa-ul">
+                            <li>Implemented the Community Classroom website that gets 50000+ views every week.</li>
+                            <li>Planned website development, converting mockups into usable web presence with React.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <h5 class="company-name">Windals Precision Pvt Ltd</h5>
+                    <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Remote</div>
+                    <div class="job-info">
+                        <div class="title">Software Project Intern</div>
+                        <div class="duration">2022</div>
+                    </div>
+                    <div class="desc">
+                        <ul class="fa-ul">
+                            <li>Worked on an internal pre-dispatch inspection web application.</li>
+                            <li>Converted the requirements to specifications and delivered the features to make the
+                                inspection process faster by eliminating the manual process.</li>
+                            <li>Built the frontend using React.js and Material UI, and the backend using Node.js,
+                                Express.js, and MongoDB.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <h5 class="company-name">ISKCON</h5>
+                    <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Remote</div>
+                    <div class="job-info">
+                        <div class="title">Software developer intern</div>
+                        <div class="duration">2021</div>
+                    </div>
+                    <div class="desc">
+                        <ul class="fa-ul">
+                            <li>Delivered the feature of school search by using Google Maps JavaScript API.</li>
+                            <li>Integrated Razorpay payment service to collect donations in the Vidyartha app.</li>
+                            <li>Migrated Vidyartha React.js app to Next.js app.</li>
+                            <li>Built RESTful APIs for the Volstory app using Node.js, Express.js, and MongoDB.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <h5 class="company-name">Indian Institute of Tropical Meteorology</h5>
+                    <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Remote</div>
+                    <div class="job-info">
+                        <div class="title">Research intern</div>
+                        <div class="duration">2021</div>
+                    </div>
+                    <div class="desc">
+                        <ul class="fa-ul">
+                            <li>Worked on Comparative Analysis of Binary Classifiers for Rainfall Prediction in the
+                                Mumbai region</li>
+                            <li>Compiled, cleaned, pre-processed, and manipulated data for proper handling.</li>
+                            <li>Achieved classification accuracy up to 93% and F1 Score up to 91%.</li>
+                            <li>Presented the research work at the NSSS sponsored by ISRO and IISER, Kolkata.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <h5 class="company-name">VIIT ACM Student Chapter</h5>
+                    <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Remote</div>
+                    <div class="job-info">
+                        <div class="title">Web developer</div>
+                        <div class="duration">2021</div>
+                    </div>
+                    <div class="desc">
+                        <ul class="fa-ul">
+                            <li>Built the website with the lighthouse score ranging from 90 to 100 improved by 10 to
+                                40%.</li>
+                            <li>Conducted a hands-on workshop for HTML and CSS for over 100 attendees.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
     <section id="technologies" class="section-technologies container container-center">
         <div class="section-title">
-            <h1 class="section-heading">Technologies</h1>
-            <h1 class="section-sub-heading"> I'm familiar with </h1>
+            <h1 class="section-heading">My Skills 🔨</h1>
+            <h1 class="section-sub-heading"> Following are the technologies I'm skilled in </h1>
         </div>
         <div class="section-info">
 
@@ -71,9 +297,14 @@
                         <img class="tech-icon" src="./assets/javascript.svg" alt="">
                         <p class="tech-name"> JS</p>
                     </div>
-    
+
+                    <!-- <div class="tech-card">
+                        <img class="tech-icon" src="./assets/git.svg" alt="">
+                        <p class="tech-name"> Git</p>
+                    </div> -->
+
                 </div>
-                      
+
                 <div class="tech-row">
                     <div class="tech-card">
                         <img class="tech-icon" src="./assets/react.svg" alt="">
@@ -87,11 +318,15 @@
                         <img class="tech-icon" src="./assets/git.svg" alt="">
                         <p class="tech-name"> Git</p>
                     </div>
-    
+
+                    <!-- <div class="tech-card">
+                        <img class="tech-icon" src="./assets/git.svg" alt="">
+                        <p class="tech-name"> Git</p>
+                    </div> -->
                 </div>
-    
+
                 <div class="tech-row">
-                    
+
                     <div class="tech-card">
                         <img class="tech-icon" src="./assets/mongodb.svg" alt="">
                         <p class="tech-name"> MongoDB</p>
@@ -104,43 +339,22 @@
                         <img class="tech-icon" src="./assets/netlify.svg" alt="">
                         <p class="tech-name"> Hosting</p>
                     </div>
-    
+
+                    <!-- <div class="tech-card">
+                        <img class="tech-icon" src="./assets/git.svg" alt="">
+                        <p class="tech-name"> Git</p>
+                    </div> -->
                 </div>
-            </div>
-            
 
-        </div>
-    </section>
-
-    <section class="section-work container container-center">
-        <div class="section-title">
-            <h1 class="section-heading">My work</h1>
-            <h3 class="section-sub-heading"> I love to build projects and write blogs </h3>
-        </div>
-
-        <div class="section-info">
-
-            <div class="work-card">
-                <img src="./assets/projectmaking.svg" alt="" class="work-image">
-                <p class="work-title   mt-3">Projects</p>
-                <p class="work-subtitle">I like to showcase my work and thus, you can see my projects hosted online</p>
-                <a href="https://projects.siddhigate.me/" class="link link-primary link-purple"> Try my projects</a>
             </div>
 
-            <div class="work-card">
-                <img src="./assets/blogwriting.svg" alt="" class="work-image">
-                <p class="work-title">Blogs</p>
-                <p class="work-subtitle">I am also working on some technical blogs. I like to document my journey of learning</p>
-                <a href="./blogs.html" class="link link-primary link-pink"> Checkout my blogs</a>
-            </div>
-        
-        </div>
 
+        </div>
     </section>
 
     <footer class="footer">
         <div class="footer-header" style="margin-bottom:2rem">get in touch</div>
-        
+
         <ul class="social-links list-non-bullet" style="margin-bottom:2rem">
             <li class="list-item-inline">
                 <a href="https://twitter.com/SiddhiGate" class="link" target="blank">
@@ -163,10 +377,11 @@
                 </a>
             </li>
         </ul>
-        
+
     </footer>
 
 </body>
+
 </html>
 
 <!-- 
