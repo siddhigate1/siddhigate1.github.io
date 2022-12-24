@@ -730,8 +730,88 @@ html {
     padding: 0 0.75rem
 }
 
-@media (max-width: 760px) { 
+@media (max-width: 760px) {
     .apps-section img {
         width: 100%;
+    }
+}
+
+.experience-list {
+    max-width: 800px;
+    margin: 3rem auto 1rem auto;
+
+}
+
+.experience-item {
+    border: 1px solid lightgray;
+    padding: 2.5rem 2rem;
+    margin: 1rem 0;
+    background-color: white;
+    box-shadow: 0 1px 25px rgb(146 161 176 / 15%);
+    border-radius: 5px;
+}
+
+.experience-item .logo {
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 0.5rem;
+}
+
+.experience-item .logo img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.experience-item .company-name {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+
+.experience-item .job-title {
+    font-weight: 500;
+    font-size: 1.15rem;
+}
+
+.experience-item .job-year {
+    font-size: 0.85rem;
+    color: gray;
+    margin-bottom: 1rem;
+}
+
+.experience-item .work-experience {
+    padding-inline-start: 20px;
+}
+
+.experience-item li {
+    margin-top: 0.35rem;
+}
+
+@media screen and (max-width: 500px) {
+
+
+    .experience-item .logo {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .experience-item .company-name {
+        font-size: 1.15rem;
+    }
+
+
+    .experience-item .job-title {
+        font-size: 1.05rem;
+    }
+
+    .experience-item .job-year {
+        font-size: 0.75rem;
+    }
+
+
+    .experience-item .work-experience {
+        padding-inline-start: 0px;
+        font-size: 0.9rem;
     }
 }
